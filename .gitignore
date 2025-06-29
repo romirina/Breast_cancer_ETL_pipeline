@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pkl
+
+# Исключение временных и чувствительных данных
+*.csv
+*.json
+*.log
+
+# Исключить airflow.db и временные файлы Airflow
+airflow.db
+airflow-webserver.pid
+unittests.cfg
+
+# Оставить логи-скриншоты, но исключить внутренние airflow-логи (если появятся)
+logs/airflow/
+
+# IDE и окружения
+.env
+.venv/
+env/
+venv/
+.vscode/
+.idea/
+
+# Системный мусор
+.DS_Store
+Thumbs.db
