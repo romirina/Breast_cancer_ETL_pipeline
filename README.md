@@ -151,10 +151,10 @@ airflow tasks test breast_cancer_pipeline extract_data 2024-01-01
 ![transform_data_log](logs/transform_data_log.png)
 
 ### train_model (успешно)
-![train_model_log](logs/train_model_log.png)
+![train_model_log](logs/train_data_log.png)
 
 ### evaluate_model (успешно)
-![evaluate_model_log](logs/evaluate_model_log.png)
+![evaluate_model_log](logs/evaluate_data_log.png)
 
 ## Автор
 
